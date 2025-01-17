@@ -1,20 +1,5 @@
 <?php
-// подключение к бд
-include_once 'components/config.php';
 // подключение контроллера
-include_once 'Controllers/'
-
+include_once 'Controllers/Front_controller.php';
 
 ?>
-
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>

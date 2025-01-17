@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 	<head>
 		<meta charset="UTF-8">
@@ -10,10 +10,10 @@
 <body>
 	<div>
             <header>
-		 <!-- <img class="headerimg" src="img/header2.png">	 -->
+		 <img class="headerimg" src="img/header2.png">	
             </header>
                 <div id="main">
-                    <?php include 'Models/Article_preview.php';?>  
+                    <?php include 'model/All_text_one_articl.php'?> 
                 </div>
                
                 <footer>
