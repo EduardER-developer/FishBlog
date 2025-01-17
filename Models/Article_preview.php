@@ -13,7 +13,6 @@ $result = $link->query($query);
 while ($row = $result->fetch_array($result, MYSQLI_ASSOC)) {
     foreach ($row as $value) {
         echo $value;
-
         echo '<br>';
     }
     $e = $row['ID'];

@@ -13,7 +13,7 @@
 		 <img class="headerimg" src="img/header2.png">	
             </header>
                 <div id="main">
-                    <?php include 'model/All_text_one_articl.php'?> 
+                    <?php include 'model/all_text_article.php'?> 
                 </div>
                
                 <footer>
