@@ -12,7 +12,7 @@
 <body>
     <div>
         <div id="main">
-            <?php include 'model/all_text_article.php' ?>
+            <?php include 'Models/all_text_article.php' ?>
         </div>
 
         <footer>
