@@ -1,7 +1,9 @@
 <?php
+include_once './components/error.php';
+
+require_once 'components/config.php';
 
 $a = $_GET["r"];
-require_once 'components/config.php';
 $query = "SELECT * FROM `sections` Where `id` = $a";
 $result = mysqli_query($link, $query);
 while ($row = mysqli_fetch_assoc($result)) {
