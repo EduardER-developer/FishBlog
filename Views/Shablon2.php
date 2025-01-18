@@ -15,10 +15,6 @@ include './Models/all_text_article.php';
 
 <body>
     <div>
-        <div id="main">
-
-        </div>
-
         <footer>
             Шаблон 2
         </footer>
