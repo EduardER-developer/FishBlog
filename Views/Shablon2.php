@@ -16,7 +16,7 @@ include './Models/all_text_article.php';
 <body>
     <div>
         <footer>
-            Шаблон 2
+            <h1>Шаблон 2</h1>
         </footer>
     </div>
 </body>
