@@ -1,6 +1,4 @@
 <?php
-include_once './components/error.php';
-
 require_once 'components/config.php';
 
 $a = $_GET["r"];
