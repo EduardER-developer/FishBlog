@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 $a = filter_input(INPUT_GET, 'r');
 
@@ -7,6 +7,3 @@ if (!$a) {
 } else {
     include 'Views/Shablon2.php';
 }
-
-
-?>

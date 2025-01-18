@@ -1,8 +1,6 @@
 <?php
 
-ini_set('display_errors', '1');
-ini_set('display_startup_errors', '1');
-error_reporting(E_ALL);
+include_once 'components/error.php';
 
 include_once 'components/config.php';
 
@@ -10,7 +8,7 @@ $query = "SELECT * FROM `sections` ORDER BY ID DESC LIMIT 5";
 
 $result = $link->query($query);
 
-while ($row = $result->fetch_array($result, MYSQLI_ASSOC)) {
+while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
     foreach ($row as $value) {
         echo $value;
         echo '<br>';
@@ -22,4 +20,3 @@ while ($row = $result->fetch_array($result, MYSQLI_ASSOC)) {
 }
 
 $link->close();
-?>
